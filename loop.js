@@ -57,3 +57,8 @@ console.log(2<<bit)
 
 
 
+arrowfun =(students)=>{
+    return students;
+
+}
+console.log(arrowfun(['kec','m']))
