@@ -3,9 +3,15 @@ var express = require("express")
 var mdb = require("mongoose")
 var app = express()
 var users=require("./models/users")
+var cors=require("cors")
+var env=require('dotenv')
+
 const portnumber = 3001;
+env.config()
 app.use(express.json())
-mdb.connect("mongodb://localhost:27017/kongu").then(() => {
+app.use(cors())
+mdb.connect(process.env.MONGO_URL).then(() => {
+    console.log("process.env.MONGO_URL")
     console.log("connected to mongodb")
 }).catch((err) => {
     console.log(err)
@@ -17,19 +23,16 @@ app.get('/', (req, res) => {
 })
 app.post('/signup',(req,res)=>{
     console.log(req.body);
-   var {fname,lname,email}=req.body
-   console.log(fname,lname,email);
+   var {fname,lname,email,password}=req.body
+   console.log(fname,lname,email,password);
    try{
-    var newuser=new users({
-        fname:fname,
-        lname:lname,
-        email:email
-        
-    })
+    var newuser =new users(req.body)
+    console.log(req.body.password);
     newuser.save()
-    console.log("succesfully signup")
-    res.status(200).send("vankam too  signup")
-
+    console.log("succesfully addeed user")
+    res.send("user added successfully")
+   
+    
    }
    catch(err){ 
     console.log(err)    
@@ -57,6 +60,34 @@ app.get('/getsignup',async(req,res)=>{
     
     console.log("cannot able to read the records");
     }
+}) 
+app.post('/login',async(req,res)=>{
+    var {email,password}=req.body
+    try{
+        var existinguser=await users.findOne({email:email})
+       if(existinguser) {
+        if(existinguser.password!==password){
+            res.json({message:"login not succesfull",isLoggedIn:false})
+           
+        }
+       
+        
+        else{
+            res.json({message :"login succssfull",isLoggedIn:true})
+        }
+    }
+    else{
+        res.json({message:"login failed",isLoggedIn:false})
+       
+        
+        }
+    }
+     catch(err){
+
+        console.log("cannot able to login")
+    }
+
+
 })
    
 
