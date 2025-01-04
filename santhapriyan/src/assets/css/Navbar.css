@@ -1,0 +1,30 @@
+ul{
+    padding:10px;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    color: rgba(250, 235, 215, 0.61);
+
+
+
+}
+ li{
+    cursor: pointer;
+    padding: 2px;
+    
+ }
+ li:hover
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    
+    
+    color: black
+}
+.link{
+    text-decoration: none;
+
+}
