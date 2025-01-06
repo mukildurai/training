@@ -1,0 +1,1016 @@
+stack over flow
+node --v(3)
+git --version(3)
+3 points 1 major version 2 minor version 3 patch,bug version number(10.8.2)
+local(git int)gitadd indx.html->staging area||caching area(git,git command,internet->git repo
+git init(to initialize)
+git add <./filename>(add file/only add that file)
+git commit (without message ->unix terminal ,i-insert node,start type your commit message,to save press escape key space :wq
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mukildurai/training.git(remote orgin add) 
+git push -u origin main
+(veliya vara press q)
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git init
+Reinitialized existing Git repository in C:/Users/MUKIL D/Documents/study/ML/train folder/.git/
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>dir /a
+ Volume in drive C is ACER
+ Volume Serial Number is 6042-7170
+
+ Directory of C:\Users\MUKIL D\Documents\study\ML\train folder
+
+27-12-2024  12:14    <DIR>          .
+27-12-2024  11:54    <DIR>          ..
+27-12-2024  12:19    <DIR>          .git
+27-12-2024  12:19               234 index.html
+27-12-2024  12:14               786 t commit
+               2 File(s)          1,020 bytes
+               3 Dir(s)  191,366,230,016 bytes free
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "Adding index.html"
+[master (root-commit) 28ad8a9] Adding index.html
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git log
+commit 28ad8a9cfdbf08ccf362ea0bcf634a533f91dabf (HEAD -> master)
+Author: mukildurai <mukild.22it@kongu.edu>
+Date:   Fri Dec 27 12:20:44 2024 +0530
+
+    Adding index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config user.name
+mukildurai
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config --global  user.email 
+mukild.22it@kongu.edu
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config user.email           
+mukild.22it@kongu.edu
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=mukildurai
+user.email=mukild.22it@kongu.edu
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git remote add origin https://github.com/mukildurai/training.git
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=mukildurai
+user.email=mukild.22it@kongu.edu
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/mukildurai/training.git
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git branch
+* master
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "t commit\357\200\242"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "t commit\357\200\242"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add <index.html>
+The syntax of the command is incorrect.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add <.index.html> 
+The syntax of the command is incorrect.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add <./index.html> 
+The syntax of the command is incorrect.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git branch
+* master
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "t commit\357\200\242"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 374 bytes | 374.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mukildurai/training.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "Adding index.html"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "t commit\357\200\242"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config user.name "mukild.22it@kongu.edu"
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git branch             
+* master
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git remote add origin https://github.com/mukildurai/training.git
+error: remote origin already exists.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git status        
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "t commit\357\200\242"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add . 
+warning: in the working copy of 't commit', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add .
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "Adding index.html"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push origin -u origin master 
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://github.com/mukildurai/training.git'
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "Adding index.html"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push origin -u origin master  
+error: src refspec origin does not match any
+error: failed to push some refs to 'https://github.com/mukildurai/training.git'
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push -u origin master         
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>
+C:\Users\MUKIL D\Documents\study\ML\train folder>ssh-keygen
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (C:\Users\MUKIL D/.ssh/id_ed25519):
+Created directory 'C:\\Users\\MUKIL D/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\MUKIL D/.ssh/id_ed25519
+Your public key has been saved in C:\Users\MUKIL D/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:4fhD9x2na5crXpkHmH3fAdyUO2TqXer1/3bontqu+WQ mukil d@MUKIL
+The key's randomart image is:
++--[ED25519 256]--+
+|               ..|
+|            . o+ |
+|        .    o+..|
+|       o .   =.o.|
+|      . S . + =o=|
+|       o . . o.BB|
+|        o   ..E**|
+|         .   *=+*|
+|            =XX+B|
++----[SHA256]-----+
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>
+update :
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>config --list
+'config' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+user.name=mukildurai
+user.email=mukild.22it@kongu.edu
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/mukildurai/training.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git diff
+diff --git a/index.html b/index.html
+index b69f20e..eb83a33 100644
+--- a/index.html
++++ b/index.html
+@@ -3,11 +3,9 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Document</title>
++    <title>eeeh</title>
+ </head>
+ <body>
+-    <h1>va
+-
+-    </h1>
++    <h1>vankkaaaaaaaam</h1>
+ </body>
+ </html>
+\ No newline at end of file
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "Adding index.html"
+[master 6390d89] Adding index.html
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git log
+commit 6390d89deb6a3f1ee2c06d3896bf9ed4b87847f8 (HEAD -> master)
+Author: mukild.22it@kongu.edu <mukild.22it@kongu.edu>
+Date:   Fri Dec 27 14:36:23 2024 +0530
+
+    Adding index.html
+
+commit 28ad8a9cfdbf08ccf362ea0bcf634a533f91dabf (origin/master)
+Author: mukildurai <mukild.22it@kongu.edu>
+Date:   Fri Dec 27 12:20:44 2024 +0530
+
+    Adding index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git remote add origin https://github.com/mukildurai/training.git
+error: remote origin already exists.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 307 bytes | 307.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mukildurai/training.git
+   28ad8a9..6390d89  master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>
+C:\Users\MUKIL D\Documents\study\ML\train folder>
+settings pages deploy from branch master root save
+new 
+C:\Users\MUKIL D\Documents\study\ML\train folder>git diff 
+diff --git a/index.html b/index.html
+index eb83a33..26e9722 100644
+--- a/index.html
++++ b/index.html
+@@ -3,9 +3,37 @@
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>eeeh</title>
++    <title>heeeeeh</title>
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git add index.html
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m 
+error: switch `m' requires a value
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git commit -m "updating index.html"
+[master 233b114] updating index.html
+ 1 file changed, 30 insertions(+), 2 deletions(-)
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 559 bytes | 559.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mukildurai/training.git
+   6390d89..233b114  master -> master
+
+C:\Users\MUKIL D\Documents\study\ML\train folder> 
+mern 
+it is a stack used to build a web application (what)
+(why)it is a full stack application ,it is purely developed java script 
+compatibility is high and performance is high 	
+everything in mern stack is a library
+vdom in react virtual document object model  
+dom it is a tree    like structure of your html
+it is component based architecture
+node :
+runtime environment for your javascript
+if npx which is responsible for installing uninstalling the lib/frameworks
+jaca script 
+programming lang
+scripting 
+oops
+creating website webpage
+1.hello world
+console.log("hellow world")
+2.declaration
+const let var es6
+3.data types:int ,char,double,float,string.boolean
+4 condition
+5operators
+6 looping
+7 functions
+8 secondary data types
+9
+es 6
+arrow function
+spread
+rest
+10
+call back,promise.async/await
+conditional statement /decision control
+operators
+assignment operator(=)
+arithmetic (+,-,%,*,/)
+relational operator(<,>=,<=,>,==,===,!=,!==)
+logical Operator 	Description
+&& 	logical and
+|| 	logical or
+! 	logical not
+bitwisweOperator 	Description 	Example 	Same as 	Result 	Decimal
+& 	AND 	5 & 1 	0101 & 0001 	0001 	 1
+| 	OR 	5 | 1 	0101 | 0001 	0101 	 5
+~ 	NOT 	~ 5 	 ~0101 	1010 	 10
+^ 	XOR 	5 ^ 1 	0101 ^ 0001 	0100 	 4
+<< 	left shift 	5 << 1 	0101 << 1 	1010 	 10
+>> 	right shift 	5 >> 1 	0101 >> 1 	0010 	  2
+>>> 	unsigned right shift 	5 >>> 1 	0101 >>> 1 	0010 	  2
+? 	ternary operator
+secondary datatypes
+array a=[a,b,c],[10,2,1],[10,1,a,b]
+object=>{
+a:10,b:20}
+looping :for(a=0;a<=10;a++){
+clg(a);
+}
+arrow function
+destructive oprator
+ternary operator
+a=10;
+out=(a%2==0?'even':'odd'
+clg(out);
+spread operator 
+student list=['tom' ,'cruise','holand','tony', "robrt","rock"]
+new student =["dinesh","anad","ajay","madhav",...student list] 
+cmbine=[...student,...new student]
+console.log(cmbine);
+
+
+task 1 : even or odd using bitwisw with out modulo
+task 2: all function in arrow function
+task 3: rest operator ...____)used in function as an argument
+diff between rest and spread operatr
+scope local scope /block scope
+global scope 
+const pi=3.14;
+var a=5;
+console log (pi);
+console log (a);
+{
+let a=10;
+let10
+clg(a)
+clg(b)
+}
+ let local scope var const global scope
+clg(a)-> local scope ahm 
+hosting
+1  clg(a)
+var a=10;
+console log(10);
+clg(a)2 
+const  =3 
+clg (a)
+clg (a)
+3 let a =10
+clg (a)
+
+
+for each :
+array =[1,2,3]
+array.for each((element)=>{
+clg(element);
+})
+
+ // for eac
+ array=[1,2,3,4,5]
+ array.forEach((element,index) => {
+    console.log(element,index)
+    
+ });      output : input varum index varum
+
+
+*/ 
+ type1={
+    "name":"mukil",
+     "age":20,
+    "movie":'iron man 2' 
+}
+for (const key of type1) {
+    console.log(key);   
+}
+
+
+
+
+c:\Users\MUKIL D\Documents\study\ML\train folder\loop.js:137
+for (const key of type1) {
+                  ^
+
+TypeError: type1 is not iterable
+task 1 foreach  for of for in use panni  object prinintg
+async indepentdently /sync coordinating with other fellow :
+
+async used in operation or function var q=10 it is static there cant be used
+
+async function function ame (){
+clg("hai");
+}
+
+func =async()=>{
+}
+
+
+
+
+
+
+ async function name() {
+    return "mukil"; 
+    
+   }
+    arrowfunc =async()=>{
+        return "kec";   
+
+    }
+    console.log(arrowfunc());
+    console.log(name());
+
+[Running] node "c:\Users\MUKIL D\Documents\study\ML\train folder\loop.js"
+Promise { 'kec' }
+Promise { 'mukil' }
+
+ */
+   async function name() {
+    console.log ("mukil"); 
+    
+   }
+    arrowfunc =async()=>{
+        console.log ("kec");   
+
+    }
+arrowfunc();
+    name();
+
+[Done] exited with code=1 in 0.134 seconds
+
+[Running] node "c:\Users\MUKIL D\Documents\study\ML\train folder\loop.js"
+kec
+mukil
+
+[Done] exited with code=0 in 0.125 seconds
+
+ async function name1() {
+    setTimeout(() => {
+        return "mukil";
+    }, 1000);   
+    
+    
+   }
+    arrowfunc =async()=>{
+        setTimeout(() => {
+            return "mukil";
+        }, 1000);
+
+    }
+console.log(arrowfunc());
+   console.log( name1()); 	
+
+[Running] node "c:\Users\MUKIL D\Documents\study\ML\train folder\loop.js"
+Promise { undefined }
+Promise { undefined }
+
+[Done] exited with code=0 in 1.13 seconds
+
+
+ function locationfinder(){
+    let train=7;
+    return new Promise((resolve,reject)=>{
+        if(train == 7)
+        {
+            resolve("resovle");
+        
+        
+        }
+        else{
+            reject("reject");
+        }
+        
+    })
+
+  }
+
+ locationfinder().then((resolve)=>{
+    console.log(resolve);
+ }).catch((err)=>{
+    console.log(err);
+ })
+ */
+ async function likecode(){
+    return new Promise((like)=>{
+       like("like comment Posted  successfuly");
+        
+    })
+ }
+async function commentcode(){
+    return new Promise((commentpost)=>{
+       commentpost("comment Posted  successfuly");
+        
+    })
+}
+
+ async function createpost(){
+    var post=new Promise((cpost)=>{
+        cpost("post created succesfully")
+  
+  
+    })
+    var [post,comment,like]=await Promise.all([post,commentcode(),likecode()]);
+    console.log(post);
+    console.log(comment);
+    console.log(like);
+}
+
+
+createpost();
+[Running] node "c:\Users\MUKIL D\Documents\study\ML\train folder\loop.js"
+post created succesfully
+ comment Posted  successfuly
+ like comment Posted  successfuly
+
+[Done] exited with code=0 in 0.125 seconds
+
+
+git commit --amend add something what is present in that
+
+jsx javascript xml
+xml extended hmtl
+
+a=react.create element("h1","nul","welcome"
+a=<h1>helllo</h1>
+babeljs.io important html javascript'
+typical way of creating react 
+npm i create-react-app
+create-react-app <app name>
+how are we creating react app
+npm create vite@latest 
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>npm create vite@latest   
+Need to install the following packages:
+create-vite@6.1.1
+Ok to proceed? (y) y
+
+
+> npx
+> create-vite
+
+√ Project name: ... santhapriyan
+? Select a framework: » - Use arrow-keys. Return to submit.
+? Select a framework: » - Use arrow-keys. Return to submit.
+? Select a framework: » - Use arrow-keys. Return to submit.
+√ Select a framework: » React
+√ Select a variant: » JavaScript
+
+Scaffolding project in C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyan...
+
+Done. Now run:
+
+  cd santhapriyan
+  npm install
+  npm run dev
+
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>cd santhapriyan
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyan>npm install
+
+added 256 packages, and audited 257 packages in 1m
+
+107 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyan>npm run dev
+
+> santhapriyan@0.0.0 dev
+> vite
+
+
+  VITE v6.0.6  ready in 217 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+there is no node modules if you create a app you need node modules 
+Create a Class component called Car
+
+class Car extends React.Component
+
+{ render()
+
+{ return <h2>Hi, I am a Car!</h2>; }
+
+}
+
+
+../../
+copy relative path 
+
+
+1.flex:
+2.display : flex
+flex direction 
+column 
+column reverse
+row
+row-reverse
+3.justify content 
+space around
+space evenly
+space reverse
+
+
+handelr footer nav section all are semantic tag 
+selector{
+    element selector 
+     class selector 
+
+id,#  id selector
+universal selector *;
+h1.ol{
+    margin
+    border
+    padding
+    content is order 
+}
+}
+
+
+state management :
+
+props
+we can transfer property from one component to another component 
+you cannot change your propes once
+parent to child
+your state canot be changed 
+you cant pass state through components but props can
+
+use state is been used for updating your state that is declared as variable by using a function 
+what are the parameter that is present in use state 
+var _____=useState();
+variable function 
+counter setcount 
+var[count,setcount]=usestate(0);
+function
+button event handling onclick ondobleclick onmouse over
+react router don :
+browser router
+route
+route
+<browswer router>
+<routes>
+<routes path='/' element={homecompoent/>} 
+
+
+hooks 
+use state 
+us effect
+use ref
+use context
+use memo
+
+
+
+mongo dbno serverand majoelt it serves on the port 27017  sql
+show databases
+FitnessTracker     216.00 KiB
+admin               40.00 KiB
+config              72.00 KiB
+fitness-challenge  124.00 KiB
+fitness-tracker      8.00 KiB
+fittrack_db         20.00 KiB
+local               88.00 KiB
+test               120.00 KiB
+yourdbname         252.00 KiB
+use shanks
+switched to db shanks
+show databases
+FitnessTracker     216.00 KiB
+admin               40.00 KiB
+config              72.00 KiB
+fitness-challenge  124.00 KiB
+fitness-tracker      8.00 KiB
+fittrack_db         20.00 KiB
+local               88.00 KiB
+test               120.00 KiB
+yourdbname         252.00 KiB
+db.createCollection("users");
+{ ok: 1 }
+show databases
+FitnessTracker     216.00 KiB
+admin               40.00 KiB
+config              96.00 KiB
+fitness-challenge  124.00 KiB
+fitness-tracker      8.00 KiB
+fittrack_db         20.00 KiB
+local               88.00 KiB
+shanks               8.00 KiB
+test               120.00 KiB
+yourdbname         252.00 KiB
+show collections
+users
+db.users.insertOne({username:"ichigo kurosaki",anime:"bleach"})
+{
+  acknowledged: true,
+  insertedId: ObjectId('67762f66a53167e13f7a2fab')
+}
+db.users.insertMany({username:"naruto uzumaki",anime:"naruto"},{username:"monkey d luffy",anime:"one piece"})
+MongoInvalidArgumentError: Argument "docs" must be an array of documents
+db.users.insertMany([{username:"naruto uzumaki",anime:"naruto"},{username:"monkey d luffy",anime:"one piece"}])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6776302ba53167e13f7a2fac'),
+    '1': ObjectId('6776302ba53167e13f7a2fad')
+  }
+}
+db.users.insertOne({username:"sosuke aizen",anime:"bleach",character:"villain"}) 
+
+
+
+ 
+db.collectionname.find()
+db.collectionname.findone()
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>cd santhapriyan
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyan>npm i react-router-dom
+
+added 6 packages, and audited 263 packages in 6s
+
+107 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyan>npm run dev
+
+> santhapriyan@0.0.0 dev
+> vite
+
+Re-optimizing dependencies because lockfile has changed
+
+  VITE v6.0.6  ready in 380 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
+ *  History restored 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.   (c) Microsoft Corporation. All rights reserved.   
+
+C:\Users\MUKIL D\Documents\study\ML\train folder> 
+ *  History restored 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder>cd santhapriyanbackend
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (santhapriyanbackend) sbackend
+version: (1.0.0)                                                                                                                                                
+description: This is a backend repo                                                                                                                             
+entry point: (index.js)                                                                                                                                         
+test command:                                                                                                                                                   
+git repository:                                                                                                                                                 
+keywords:                                                                                                                                                       
+author: mukilan
+license: (ISC)                                                                                                                                                  
+About to write to C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend\package.json:
+
+{
+  "name": "sbackend",
+  "version": "1.0.0",
+  "description": "This is a backend repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mukilan",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend> npm install express 
+gitignore {
+node_modules
+}
+
+back end : front end
+import:require("express"):import reacr form react
+var express =require("express")
+var app=express()
+const port number=3001
+app.listen(3001,()=>{
+cld("back  end connet")
+})
+
+
+
+
+"start": "node index.js", in packgae.json scripts
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend>cleat
+'cleat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend>npm start
+
+> sbackend@1.0.0 start
+> node index.js
+
+back  end conneted
+ Url:http://localhost:3001
+Terminate batch job (Y/N)? y
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend>npm install nodemon
+
+added 29 packages, and audited 98 packages in 4s
+
+18 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\MUKIL D\Documents\study\ML\train folder\santhapriyanbackend>
+ "start": "nodemon index.js" in script package.json
+your mongo db url is :mongodb://localhost:207017
+to connect md to your backend you should install a lib tht lib name is mongoose to intsall that command is mpn i mongoose
+
+
+if both authentication and authorization 
+
+should he or she login ;should i need to allow them to accesss or not 
+very respective datbase 
+
+be to fe 
+create a api call to your backend 
+api called succesfull
+api call failed 
+cors error
+data error ->type error->passing parsing
+process your backend code if api call is succesfull
+respond with some data to your frontend 
+ufiw58OKRgb9IStI
+https://shanksdep-flame.vercel.app/about
+
+
+
+
+
+
+            
